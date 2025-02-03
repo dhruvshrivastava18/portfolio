@@ -125,7 +125,13 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Swift & SwiftUI',
+    'Kotlin Multiplatform (KMP)',
+    'UIKit & Cocoa Touch',
+    'CoreML, Core Data, Firebase',
+    'MVVM, Combine',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,45 +141,33 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hey! My name is Dhruv Shrivastava, and I’m passionate about crafting beautiful,
+              high-performance iOS experiences. With years of hands-on development, I’ve built
+              everything from personal projects to production-grade mobile apps.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I thrive on challenges and constantly push myself to learn and refine my skills.
+              Whether it’s architecting scalable iOS applications, optimizing performance, or diving
+              into ASO and marketing, I’m always eager to explore new opportunities. My journey has
+              taken me from being a Google Summer of Code Scholar at MIT App Inventor to a founding
+              iOS engineer at Swipe, where I built the app from the ground up.
             </p>
-
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Alongside pursuing a B.Tech in Computer Science, I’ve also contributed to open-source
+              projects, collaborated with teams across different domains, and worked on innovative
+              features that enhance mobile experiences.
             </p>
-
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-
         <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
