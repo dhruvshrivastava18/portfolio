@@ -1,11 +1,12 @@
 ---
 date: '2017-04-01'
-title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+title: 'SDE Intern'
+company: 'Coderoofs IT Solutions'
+location: 'Remote'
+range: 'October 2022 - February 2023'
+url: 'https://coderoofs.com/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Developed iOS mobile applications from design to deployment, ensuring high quality and performance standards were met.
+- Worked collaboratively with design teams to identify and define app features that met customer needs and expectations.
+- Proactively identified and resolved potential problems and bottlenecks during the development cycle to deliver polished, bug-free applications.

@@ -1,13 +1,13 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+title: 'iOS Engineer'
+company: 'GSOC 23, MIT App Inventor'
+location: 'remote'
+range: 'April - September 2023'
+url: 'https://appinventor.mit.edu/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Developed and enhanced various essential iOS components, including **File**, **CircularProgress**, **LinearProgressbar**, and **Snackbar**, ensuring smooth and interactive user experiences.
+- Designed and implemented user-friendly interfaces for key components such as **TabLayout** and **CardView**, optimizing navigation and visual appeal.
+- Implemented advanced functionality for applications through components like **Barometer**, **MagneticFieldSensor** and **ProximitySensor**, adding valuable features and enhancing user engagement.
+- Successfully integrated system-level functionalities by working on **WiFiAdmin**, **BluetoothAdmin**, and **FingerPrint (Touch ID and Face ID)**, improving connectivity, security, and overall user satisfaction.
