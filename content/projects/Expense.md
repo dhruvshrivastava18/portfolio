@@ -1,13 +1,13 @@
 ---
 date: '2018-05-01'
-title: 'blistabloc'
-github: ''
-external: 'https://blistabloc.com/'
+title: 'Expense'
+github: 'https://github.com/dhruvshrivastava18/iExpense'
+external: ''
 tech:
-  - WordPress
-  - Timber
-  - WooCommerce
-company: 'Scout'
+  - Swift
+  - SwiftUI
+  - MVVM
+company: 'College'
 showInProjects: false
 ---
 

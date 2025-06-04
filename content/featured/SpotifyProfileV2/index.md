@@ -1,16 +1,31 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Habit Tracker'
+cover: './habit.png'
+# external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+cta: 'https://github.com/dhruvshrivastava18/habitTracker'
+
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - SwiftUI
+  - SwiftData
+  - HeatMap
+  - MVVM
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+Habit Tracker is a powerful habit-tracking app designed to help you build positive routines and stay on track with your goals. With features like streak tracking, personalized reminders, and insightful progress charts, it transforms habit-building into an engaging and effective experience.
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+<!-- ---
+date: '3'
+title: 'Habit Tracker'
+cover: './habit.png'
+cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+github: 'https://github.com/dhruvshrivastava18/habitTracker'
+
+tech:
+  - SwiftUI
+  - UI-KIT
+  - CoreData
+  - MVVM
+---
+
+Habit Tracker is a powerful habit-tracking app designed to help you build positive routines and stay on track with your goals. With features like streak tracking, personalized reminders, and insightful progress charts, it transforms habit-building into an engaging and effective experience.  -->

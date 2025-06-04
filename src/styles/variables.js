@@ -3,36 +3,68 @@ import { css } from 'styled-components';
 const variables = css`
   :root {
     /* Base Colors */
+    /* Original Colors
     --dark-navy: #0a0b1e;
     --navy: #14162b;
     --light-navy: #1e2138;
     --lightest-navy: #2a2f4a;
     --navy-shadow: rgba(10, 11, 30, 0.7);
+    */
+    --dark-navy: #000000;
+    --navy: #121212;
+    --light-navy: #1e1e1e;
+    --lightest-navy: #2a2a2a;
+    --navy-shadow: rgba(0, 0, 0, 0.7);
 
     /* Text Colors */
+    /* Original Colors
     --dark-slate: #5a5f8a;
     --slate: #8b93c0;
     --light-slate: #b4bde0;
     --lightest-slate: #d4daff;
     --white: #f0f4ff;
+    */
+    --dark-slate: #666666;
+    --slate: #888888;
+    --light-slate: #aaaaaa;
+    --lightest-slate: #cccccc;
+    --white: #f5f5f5;
 
     /* Accent Colors */
+    /* Original Colors
     --green: #00ffd5;
     --green-tint: rgba(0, 255, 213, 0.1);
     --pink: #ff2e88;
     --blue: #00b8ff;
     --purple: #b388ff;
     --orange: #ff9d00;
+    */
+    --green: #ffffff;
+    --green-tint: rgba(255, 255, 255, 0.1);
+    --pink: #e0e0e0;
+    --blue: #f0f0f0;
+    --purple: #d0d0d0;
+    --orange: #e8e8e8;
 
     /* New Gradient Colors */
+    /* Original Gradients
     --gradient-1: linear-gradient(135deg, #00ffd5 0%, #00b8ff 100%);
     --gradient-2: linear-gradient(135deg, #ff2e88 0%, #b388ff 100%);
     --gradient-3: linear-gradient(135deg, #00b8ff 0%, #b388ff 100%);
+    */
+    --gradient-1: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    --gradient-2: linear-gradient(135deg, #e0e0e0 0%, #d0d0d0 100%);
+    --gradient-3: linear-gradient(135deg, #f0f0f0 0%, #d0d0d0 100%);
 
     /* Glow Effects */
+    /* Original Glows
     --glow-green: 0 0 10px rgba(0, 255, 213, 0.5);
     --glow-blue: 0 0 10px rgba(0, 184, 255, 0.5);
     --glow-pink: 0 0 10px rgba(255, 46, 136, 0.5);
+    */
+    --glow-green: 0 0 10px rgba(255, 255, 255, 0.3);
+    --glow-blue: 0 0 10px rgba(240, 240, 240, 0.3);
+    --glow-pink: 0 0 10px rgba(224, 224, 224, 0.3);
 
     /* Fonts */
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,

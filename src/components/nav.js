@@ -17,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background: linear-gradient(to right, rgba(20, 22, 43, 0.95), rgba(10, 11, 30, 0.95));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(18, 18, 18, 0.95));
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -40,7 +40,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
-        background: linear-gradient(to right, rgba(20, 22, 43, 0.98), rgba(10, 11, 30, 0.98));
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.98), rgba(18, 18, 18, 0.98));
         box-shadow: 0 10px 30px -10px var(--navy-shadow);
       `};
 
@@ -159,14 +159,24 @@ const StyledLinks = styled.div`
     ${({ theme }) => theme.mixins.smallButton};
     margin-left: 15px;
     font-size: var(--fz-xs);
-    background: var(--gradient-1);
-    border: none;
-    color: var(--navy);
-    font-weight: 600;
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    transition: var(--transition);
 
-    &:hover {
+    &:hover,
+    &:focus-visible {
+      outline: none;
+      box-shadow: 3px 3px 0 0 var(--green);
       transform: translate(-4px, -4px);
-      box-shadow: var(--glow-green);
+    }
+    &:after {
+      display: none !important;
     }
   }
 `;
