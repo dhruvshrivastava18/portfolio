@@ -15,17 +15,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-image`,
       options: {
-        formats: ['auto', 'webp'],
-        placeholder: 'blurred',
+        defaults: {
+          formats: ['auto', 'webp'],
+          placeholder: 'blurred',
+          quality: 90,
+        },
       },
     },
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        formats: ['auto', 'webp'],
-        quality: 90,
-      },
-    },
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
@@ -89,7 +86,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              placeholder: 'blurred',
             },
           },
           {
