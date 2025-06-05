@@ -12,16 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-plugin-image`,
-      options: {
-        defaults: {
-          formats: ['auto', 'webp'],
-          placeholder: 'blurred',
-          quality: 90,
-        },
-      },
-    },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
@@ -86,7 +77,6 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              placeholder: 'blurred',
             },
           },
           {
