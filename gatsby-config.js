@@ -27,7 +27,6 @@ module.exports = {
           jpgOptions: {},
           pngOptions: {},
           webpOptions: {},
-          avifOptions: {},
         },
         failOn: `none`,
       },

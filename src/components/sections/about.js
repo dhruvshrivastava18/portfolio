@@ -141,23 +141,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey! My name is Dhruv Shrivastava, and I’m passionate about crafting beautiful,
-              high-performance iOS experiences. With years of hands-on development, I’ve built
+              Hey! My name is Dhruv Shrivastava, and I'm passionate about crafting beautiful,
+              high-performance iOS experiences. With years of hands-on development, I've built
               everything from personal projects to production-grade mobile apps.
             </p>
             <p>
               I thrive on challenges and constantly push myself to learn and refine my skills.
-              Whether it’s architecting scalable iOS applications, optimizing performance, or diving
-              into ASO and marketing, I’m always eager to explore new opportunities. My journey has
+              Whether it's architecting scalable iOS applications, optimizing performance, or diving
+              into ASO and marketing, I'm always eager to explore new opportunities. My journey has
               taken me from being a Google Summer of Code Scholar at MIT App Inventor to a founding
               iOS engineer at Swipe, where I built the app from the ground up.
             </p>
             <p>
-              Alongside pursuing a B.Tech in Computer Science, I’ve also contributed to open-source
+              Alongside pursuing a B.Tech in Computer Science, I've also contributed to open-source
               projects, collaborated with teams across different domains, and worked on innovative
               features that enhance mobile experiences.
             </p>
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
@@ -170,7 +170,7 @@ const About = () => {
               src="../../images/me.png"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
+              formats={['AUTO', 'WEBP']}
               alt="Headshot"
             />
           </div>
