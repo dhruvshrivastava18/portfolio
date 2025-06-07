@@ -10,7 +10,6 @@ tech:
   - Keras
   - Tenserflow
   - Flask
-  - Spotipy
 
 company: 'College'
 

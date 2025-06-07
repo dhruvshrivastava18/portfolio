@@ -4,6 +4,7 @@ title: 'ChatApp'
 github: 'https://github.com/dhruvshrivastava18/-chatapp'
 external: ''
 tech:
+  - Swift
   - UIKit
   - Firebase
   - MVVM

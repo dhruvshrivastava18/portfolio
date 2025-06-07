@@ -1,68 +1,58 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  Portfolio Website
-</h1>
-<p align="center">
-  A modern portfolio website built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
+# Dhruv Shrivastava - Portfolio
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+A modern, minimalist portfolio website showcasing my projects and experience.
 
-## 🚨 Attribution
+🌐 **Live Site**: [shrivastavadhruv.netlify.app](https://shrivastavadhruv.netlify.app)
 
-This project is forked from [Brittany Chiang's portfolio](https://github.com/bchiang7/v4). All credit for the original design and implementation goes to Brittany Chiang. This is a modified version of her work.
+## ✨ Features
 
-## 🛠 Installation & Set Up
+- **Modern Design**: Clean, minimalist black and white aesthetic
+- **Responsive**: Optimized for all device sizes
+- **Fast Loading**: Built with Gatsby for optimal performance
+- **Interactive**: Smooth animations and hover effects
+- **Project Showcase**: Detailed project displays with live demos and source code links
+- **Contact Form**: Easy way to get in touch
 
-1. Install the Gatsby CLI
+## 🛠 Built With
 
-   ```sh
-   npm install -g gatsby-cli
+- [Gatsby](https://www.gatsbyjs.org/) - Static site generator
+- [React](https://reactjs.org/) - Frontend framework
+- [Styled Components](https://styled-components.com/) - CSS-in-JS styling
+- [Netlify](https://www.netlify.com/) - Hosting and deployment
+
+## 🚀 Quick Start
+
+1. **Install dependencies**
+
+   ```bash
+   npm install
    ```
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+2. **Start development server**
 
-   ```sh
-   nvm install
-   ```
-
-3. Install dependencies
-
-   ```sh
-   yarn
-   ```
-
-4. Start the development server
-
-   ```sh
+   ```bash
    npm start
    ```
 
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
+3. **Build for production**
+   ```bash
    npm run build
    ```
 
-1. Preview the site as it will appear once deployed
+## 🎨 Color Palette
 
-   ```sh
-   npm run serve
-   ```
+| Color        | Hex                                                                |
+| ------------ | ------------------------------------------------------------------ |
+| Black        | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| Dark Grey    | ![#121212](https://via.placeholder.com/10/121212?text=+) `#121212` |
+| Medium Grey  | ![#1a1a1a](https://via.placeholder.com/10/1a1a1a?text=+) `#1a1a1a` |
+| Light Grey   | ![#666666](https://via.placeholder.com/10/666666?text=+) `#666666` |
+| Lighter Grey | ![#888888](https://via.placeholder.com/10/888888?text=+) `#888888` |
+| Off White    | ![#cccccc](https://via.placeholder.com/10/cccccc?text=+) `#cccccc` |
+| White        | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
 
-## 🎨 Color Reference
+## 📝 License & Attribution
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#121212](https://via.placeholder.com/10/121212?text=+) `#121212` |
-| Light Navy     | ![#1a1a1a](https://via.placeholder.com/10/1a1a1a?text=+) `#1a1a1a` |
-| Lightest Navy  | ![#2a2a2a](https://via.placeholder.com/10/2a2a2a?text=+) `#2a2a2a` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+This project is based on the original design by [Brittany Chiang](https://github.com/bchiang7/v4). The design has been modified and customized for my personal use.
+
+---

@@ -8,7 +8,7 @@ tech:
   - CoreML
   - MVVM
 company: 'College'
-showInProjects: true
+showInProjects: false
 ---
 
 The SleepWell app predicts how long it will take your body to fall asleep based on how much coffee you consume each day.
