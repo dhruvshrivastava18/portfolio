@@ -142,25 +142,26 @@ const About = () => {
           {
             <div>
               <p>
-                Hi, I’m <strong>Dhruv Shrivastava</strong> — a passionate iOS engineer dedicated to
-                crafting elegant, high-performance mobile experiences. With years of hands-on
-                experience across personal projects, open-source contributions, and production-scale
-                apps, I bring a deep commitment to <strong>craftsmanship</strong> and{' '}
-                <strong>innovation</strong>. From low-level architecture to pixel-perfect UI, I
-                thrive on solving complex challenges and delivering polished, scalable solutions.
+                I build iOS apps and love every part of the process - from architecting scalable
+                solutions to perfecting those final animations. Currently, I'm the{' '}
+                <strong>founding iOS engineer at Swipe</strong> (<strong>YC-backed</strong>), where
+                we architected and built our mobile app from the ground up using{' '}
+                <strong>Kotlin Multiplatform</strong>. It's been incredible working on performance
+                optimization and creating seamless user experiences at scale.
               </p>
               <p>
-                My journey includes being a <strong>Google Summer of Code Scholar</strong> at MIT
-                App Inventor and the <strong>founding iOS engineer at Swipe</strong> — a{' '}
-                <strong>Y Combinator-backed startup</strong> — where I architected and built the app
-                from the ground up. I constantly push myself to learn, refine my skills, and explore
-                opportunities at the intersection of engineering, design, and growth.
+                My journey includes being a <strong>Google Summer of Code scholar</strong> at{' '}
+                <strong>MIT App Inventor</strong>, which gave me deep insights into mobile
+                development tools and frameworks. What drives me? Solving complex technical
+                challenges and shipping features that users genuinely love. Whether it's
+                implementing advanced concurrency patterns or building design systems that scale, I
+                focus on creating apps that perform beautifully under pressure.
               </p>
               <p>
-                I hold a <strong>B.Tech in Computer Science</strong> and have collaborated with
-                cross-functional teams, contributed to open-source projects, and led the development
-                of innovative features that elevate the mobile user experience. I'm driven by
-                curiosity, a love for great design, and a relentless focus on quality.
+                I hold a <strong>B.Tech in Computer Science</strong> and constantly explore new
+                technologies while contributing to open source projects. I'm passionate about the
+                intersection of engineering and design - making apps that not only work well but
+                feel great to use.
               </p>
               <p>Here are a few technologies I've been working with recently:</p>
             </div>
