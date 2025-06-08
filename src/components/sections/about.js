@@ -127,10 +127,10 @@ const About = () => {
 
   const skills = [
     'Swift & SwiftUI',
-    'Kotlin Multiplatform (KMP)',
     'UIKit & Cocoa Touch',
-    'CoreML, Core Data, Firebase',
-    'MVVM, Combine',
+    'Kotlin Multiplatform (KMP)',
+    'CoreML, Core Data, Charts, Combine',
+    'Firebase, Supabase',
   ];
 
   return (
@@ -139,26 +139,32 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
-          <div>
-            <p>
-              Hey! My name is Dhruv Shrivastava, and I'm passionate about crafting beautiful,
-              high-performance iOS experiences. With years of hands-on development, I've built
-              everything from personal projects to production-grade mobile apps.
-            </p>
-            <p>
-              I thrive on challenges and constantly push myself to learn and refine my skills.
-              Whether it's architecting scalable iOS applications, optimizing performance, or diving
-              into ASO and marketing, I'm always eager to explore new opportunities. My journey has
-              taken me from being a Google Summer of Code Scholar at MIT App Inventor to a founding
-              iOS engineer at Swipe, where I built the app from the ground up.
-            </p>
-            <p>
-              Alongside pursuing a B.Tech in Computer Science, I've also contributed to open-source
-              projects, collaborated with teams across different domains, and worked on innovative
-              features that enhance mobile experiences.
-            </p>
-            <p>Here are a few technologies I've been working with recently:</p>
-          </div>
+          {
+            <div>
+              <p>
+                Hi, I’m <strong>Dhruv Shrivastava</strong> — a passionate iOS engineer dedicated to
+                crafting elegant, high-performance mobile experiences. With years of hands-on
+                experience across personal projects, open-source contributions, and production-scale
+                apps, I bring a deep commitment to <strong>craftsmanship</strong> and{' '}
+                <strong>innovation</strong>. From low-level architecture to pixel-perfect UI, I
+                thrive on solving complex challenges and delivering polished, scalable solutions.
+              </p>
+              <p>
+                My journey includes being a <strong>Google Summer of Code Scholar</strong> at MIT
+                App Inventor and the <strong>founding iOS engineer at Swipe</strong> — a{' '}
+                <strong>Y Combinator-backed startup</strong> — where I architected and built the app
+                from the ground up. I constantly push myself to learn, refine my skills, and explore
+                opportunities at the intersection of engineering, design, and growth.
+              </p>
+              <p>
+                I hold a <strong>B.Tech in Computer Science</strong> and have collaborated with
+                cross-functional teams, contributed to open-source projects, and led the development
+                of innovative features that elevate the mobile user experience. I'm driven by
+                curiosity, a love for great design, and a relentless focus on quality.
+              </p>
+              <p>Here are a few technologies I've been working with recently:</p>
+            </div>
+          }
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>

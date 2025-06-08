@@ -9,7 +9,7 @@ tech:
   - MVVM
 company: 'College'
 
-showInProjects: true
+showInProjects: false
 ---
 
 An intuitive iOS app for exploring, tracking, and discovering movies with favorites, watchlists, ratings, and cast info—powered by Swift and SwiftData.

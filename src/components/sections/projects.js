@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               external
+              gsoc
             }
             html
           }
@@ -212,7 +213,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech, gsoc } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -225,6 +226,15 @@ const Projects = () => {
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
                   <Icon name="GitHub" />
+                </a>
+              )}
+              {gsoc && (
+                <a
+                  href={gsoc}
+                  aria-label="Google Summer of Code Link"
+                  target="_blank"
+                  rel="noreferrer">
+                  <Icon name="GSoC" />
                 </a>
               )}
               {external && (
