@@ -1,5 +1,5 @@
 ---
-date: '2020-03-27'
+date: '2022-07-27'
 title: 'Movies App'
 github: 'https://github.com/dhruvshrivastava18/MovieApp'
 

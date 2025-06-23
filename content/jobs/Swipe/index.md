@@ -7,8 +7,8 @@ range: 'Jan 2024 - Present'
 url: 'https://bit.ly/swipe-ios'
 ---
 
-- **Founding Member**: Architected and developed the **iOS app** for **Swipe**, leveraging **Kotlin Multiplatform** to share business logic with **Android**.
+- **Founding iOS Engineer**: Architected and developed the **iOS app** for **Swipe**, leveraging **Kotlin Multiplatform** to share business logic with **Android**.
 - Enhanced **performance** by implementing **concurrency**, achieving a **2.5x faster** invoice creation flow and handling **150x more products** per invoice than Android and Web.
 - Standardized **UI components** through comprehensive **design libraries**, ensuring consistent branding and rapid feature deployment.
 - Enabled **real-time synchronization** with the web platform via **WebSocket communication** for a seamless multi-device experience.
-- Implemented **persistence** on the main **Create Bill** screen, significantly improving **speed** and **responsiveness**.
+- Implemented **Persistence** on the main **Create Invoice** screen using **Realm**, significantly improving **speed** and **responsiveness**.
